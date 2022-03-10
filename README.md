@@ -2,6 +2,8 @@
 
 …or create a new repository on the command line
 
+README siempre se escribe con mayusculas
+
 echo "# 1-Passanger-Counter-App-JS" >> README.md
 git init
 git add README.md
