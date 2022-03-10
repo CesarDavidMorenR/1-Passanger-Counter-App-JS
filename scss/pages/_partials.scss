@@ -1,0 +1,10 @@
+/* Organize with Partials
+Partials in Sass are the files you split up to organize specific functionality in the codebase.
+
+They use a _ prefix notation in the file name that tells Sass to hold off on compiling the file individually and instead import it.
+_filename.scss
+To import this partial into the main file - or the file that encapsulates the important rules and the bulk of the project styles - omit the underscore.
+For example, to import a file named _variables.scss, add the following line of code:
+
+  @import "variables";
+The global file imports all the components and centralizes the logic. */
