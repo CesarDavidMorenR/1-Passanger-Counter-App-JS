@@ -78,18 +78,17 @@ lapCompletedplus();
 lapCompletedplus();
 lapCompletedplus(); 
 
-// Hacer contador interactivo */
+// Hacer contador interactivo
 
 //camelCase = primera letra minuscula y segunda letra mayuscula
 
 function increment() {
    console.log('The button was click')
-}  
+}   */
 
-let countEl = document.getElementById("count-el");
-let contaador = 0;
-
-function cont() {
-   contaador = contaador++;
-   countEl.innerText = contaador;
+let countEl = document.getElementById("count-el")
+let contaador = 0 
+function subirCont() {
+   contaador = contaador + 1
+   countEl.innerText = contaador
 }
