@@ -1,10 +1,11 @@
-// comentar en una linea "//" document.getElementById("count-el").innerText=5
+
+/* // comentar en una linea "//" document.getElementById("count-el").innerText=5
 
 let count = 1
 
 console.log(count)
 
-/* javaScript lee de arriba a abajo */
+// javaScript lee de arriba a abajo 
 
 let myAge = 27
 console.log(myAge)
@@ -38,4 +39,57 @@ bonusPoints = bonusPoints-25
 console.log(bonusPoints)
 
 bonusPoints=bonusPoints+70
-console.log(bonusPoints)
+console.log(bonusPoints) 
+
+
+ function increment() {
+   console.log('The button was click')
+}  
+
+//mostrar numero
+
+function numero() {
+   console.log(42);
+}
+
+numero(); *
+
+//sumar
+
+let lap1 = 34;
+let lap2 = 33;
+let lap3 = 36;
+
+function suma() {
+   console.log(lap1 + lap2 + lap3);
+}
+
+suma();
+
+// aumentar
+
+let lapsCompleted = 0;
+function lapCompletedplus() {
+   lapsCompleted++;
+   console.log(lapsCompleted);
+}
+
+lapCompletedplus();
+lapCompletedplus();
+lapCompletedplus(); 
+
+// Hacer contador interactivo */
+
+//camelCase = primera letra minuscula y segunda letra mayuscula
+
+function increment() {
+   console.log('The button was click')
+}  
+
+let countEl = document.getElementById("count-el");
+let contaador = 0;
+
+function cont() {
+   contaador = contaador++;
+   countEl.innerText = contaador;
+}
