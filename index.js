@@ -1,4 +1,3 @@
-
 /* // comentar en una linea "//" document.getElementById("count-el").innerText=5
 
 let count = 1
@@ -86,11 +85,11 @@ function increment() {
    console.log('The button was click')
 }   */
 
-let countEl = document.getElementById("count-el")
-let contaador = 0 
+let countEl = document.getElementById("count-el");
+let contaador = 0;
 function subirCont() {
-   contaador = contaador + 1
-   countEl.innerText = contaador
+  contaador = contaador + 1;
+  countEl.innerText = contaador;
 }
 
 /* const firstMessage = 'I will print!';
