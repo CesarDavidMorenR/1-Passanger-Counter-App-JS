@@ -48,7 +48,7 @@
       _model: "1E78V2",
       _energyLevel: 100,
       get energyLevel() {
-        if (typeof this._energyLevel === "number") { // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#description los valores que devuelve el typeof puede ser asignado como lo que quiero que analize si devuelve la propiedad por eso identifica number ocmo lo que e snumber mirar link
+        if (typeof this._energyLevel === "number") { // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#description aqui el typeof analiza el valor de la propiedad this... y cocmo es igual a number es true. Mirar pagina web
           return "My current energy level is " + this._energyLevel;
         } else {
           return "System malfunction: cannot retrieve energy level";
