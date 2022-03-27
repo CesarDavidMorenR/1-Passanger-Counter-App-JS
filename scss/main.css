@@ -1,3 +1,5 @@
+/* Este archivo css se llama como el archivo scss */
+
 /* Generales */
 * {
   margin: 0;
@@ -35,6 +37,4 @@ main .contador button {
   height: 30px;
 }
 
-/* windows+. sale los emoticosnos */
-
-/* Inputs *//*# sourceMappingURL=style.css.map */
+/* Inputs *//*# sourceMappingURL=main.css.map */
